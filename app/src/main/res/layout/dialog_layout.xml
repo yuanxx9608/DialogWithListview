@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#e1e1e1"
+        android:layout_width="match_parent"
+        android:layout_height="54px">
+
+        <TextView
+            android:layout_marginLeft="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25px"
+            android:gravity="center_vertical"
+            android:text="@string/dialog_title_partition"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10px"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/dialog_cancel" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dialog_list"
+        android:layout_width="match_parent"
+
+        android:layout_height="250px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e1e1e1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88px"
+            android:gravity="center_vertical|right">
+
+            <Button
+                android:id="@+id/dialog_btn_ok"
+                android:layout_width="156px"
+                android:layout_height="66px"
+                android:layout_marginTop="12px"
+                android:layout_marginBottom="12px"
+                android:layout_marginRight="20px"
+                android:text="OK"
+                android:textSize="20px"
+                android:background="@drawable/dialog_button_selector"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

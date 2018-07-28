@@ -1,0 +1,28 @@
+<com.example.yuan.idialogue.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_item_text"
+            android:layout_marginLeft="20px"
+            android:gravity="center_vertical"
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="50px"
+            android:text="@string/dialog_state_mark"
+            android:textSize="20px"/>
+    </LinearLayout>
+
+</com.example.yuan.idialogue.CheckableLinearLayout>

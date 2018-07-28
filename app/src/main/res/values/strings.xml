@@ -1,0 +1,8 @@
+﻿<resources>
+    <string name="app_name">Idialogue</string>
+    <string name="dialog_title_partition">Partition Description</string>
+    <string name="dialog_test">弹出框测试</string>
+
+    <string name="moreChoices">More Choices</string>
+    <string name="dialog_state_mark">状态</string>
+</resources>
